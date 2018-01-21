@@ -1,0 +1,59 @@
+body{
+  background-image: url(../img/fondo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.cabecera{
+	height: 9em;
+}
+
+.logo{
+  margin-top: 1em;
+	margin-left: 4em;
+	border-radius: 15px;
+}
+
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+
+@media (min-width:601px) and (max-width:1050px){
+	.btns{
+	  	display: inline-block;
+      height: 30px;
+	  	line-height: 30px;
+	  	padding: 0 0.5rem!important;
+	}
+
+	.logo{
+		width: 110px;
+		margin-left: 1em;
+	}
+}
+
+@media (max-width:600px){
+	.btns{
+	  	display: inline-block;
+	  	height: 24px;
+	  	line-height: 24px;
+	  	padding: 0 0.05rem!important;
+	}
+
+	i.left{
+		margin: 0 2px;
+	}
+
+	.logo{
+		width: 90px;
+		margin-left: 0.4em;
+	}
+
+	.margin{
+		margin-left: 2em!important;
+	}
+
+}
